@@ -321,7 +321,6 @@ main {
   border-radius: 8px;
   display: flex;
   flex-direction: column; 
-  gap: 5px;
 }
 
 .info-content .title span {

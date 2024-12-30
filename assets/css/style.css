@@ -17,11 +17,11 @@
 
   --border-gradient-onyx: linear-gradient(
     to bottom right, 
-    hsl(0, 0%, 25%) 0%, 
+    #66FCF1 0%, 
     hsla(0, 0%, 25%, 0) 50%
   );
   --text-gradient-yellow: #66FCF1;
-  /* solid */
+ 
 
   --jet: hsl(0, 0%, 22%);
   --onyx: hsl(240, 1%, 17%);
@@ -36,9 +36,7 @@
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
 
-  /**
-   * typography
-   */
+ 
 
   /* font-family */
   --ff-poppins: 'Poppins', sans-serif;
@@ -59,9 +57,7 @@
   --fw-500: 500;
   --fw-600: 600;
 
-  /**
-   * shadow
-   */
+  /*** shadow*/
   
   --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
   --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
@@ -69,9 +65,7 @@
   --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
   --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
 
-  /**
-   * transition
-   */
+  /*** transition*/
 
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease-in-out;

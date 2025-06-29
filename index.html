@@ -568,6 +568,34 @@
               </a>
             </li>
 
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/Sphynxxxxx/FredTayo">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/ALTA II.png" alt="Farming and Rental Tools" loading="lazy">
+                </figure>
+                <h3 class="project-title">Alta II Services</h3>
+                <h3 class="project-title" style="font-size: 14px;">(Inventory System)</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/Sphynxxxxx/4ps-Profiling-System">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/4ps.png" alt="Farming and Rental Tools" loading="lazy">
+                </figure>
+                <h3 class="project-title">4p's Profiling System</h3>
+                <h3 class="project-title" style="font-size: 14px;">(E-governance System)</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
             <li class="project-item  active" data-filter-item data-category="applications">
               <a href="https://github.com/Sphynxxxxx/2D-image-converting-into-3D-model.git">
                 <figure class="project-img">
@@ -648,6 +676,34 @@
               </a>
             </li>
 
+            <li class="project-item active" data-filter-item data-category="graphics">
+              <div class="project-container">
+                <figure class="project-img">
+                  <div class="project-item-icon-box" onclick="openModal('./assets/images/SDG 9-01.png')">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/SDG 9-01.png" alt="SDG" loading="lazy">
+                </figure>
+                <h3 class="project-title">SDG - Industry, Innovation and Infrastructure</h3>
+                <h3 class="project-title" style="font-size: 14px;">(Poster)</h3>
+                <p class="project-category">Graphic</p>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="graphics">
+              <div class="project-container">
+                <figure class="project-img">
+                  <div class="project-item-icon-box" onclick="openModal('./assets/images/Muted-Devs_Poster_final-01.jpg')">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Muted-Devs_Poster_final-01.jpg" alt="Muted Devs Poster" loading="lazy">
+                </figure>
+                <h3 class="project-title">Mute Devs Game Development Poster</h3>
+                <h3 class="project-title" style="font-size: 14px;">(Poster)</h3>
+                <p class="project-category">Graphic</p>
+              </div>
+            </li>
+
             <!--<li class="project-item  active" data-filter-item data-category="applications">
               <a href="#">
                 <figure class="project-img">
@@ -677,6 +733,10 @@
           </ul>
         </section>
       </article>
+
+      <div id="zoomModal" class="zoom-modal" onclick="closeModal()">
+        <img class="zoom-modal-content" id="zoomImage">
+      </div>
 
 
 
@@ -851,6 +911,17 @@
   <!--- ionicon link-->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script>
+    function openModal(src) {
+      document.getElementById("zoomImage").src = src;
+      document.getElementById("zoomModal").style.display = "flex";
+    }
+
+    function closeModal() {
+      document.getElementById("zoomModal").style.display = "none";
+    }
+  </script>
+
 
 </body>
 
